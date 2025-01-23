@@ -1,0 +1,34 @@
+.hero{
+    height: 60vh;
+    margin: 20px auto;
+    padding-inline: 100px;
+}
+.hero img{
+    width: 1300px;
+    height: 500px;
+    position: relative;
+    border-radius: 20px;
+}
+.hero_text{
+    position: absolute;
+    margin-top: -490px;
+    color: #fff;
+    margin-left: 20px;
+}
+.hero_text h2{
+    font-size: 60px;
+    color: #fca120;
+    margin-bottom: 15px;
+}
+.hero_text p{
+    font-size: 22px;
+}
+.hero button{
+    margin-top: -200px;
+    position: absolute;
+    margin-left: 6rem;
+    border-radius: 30px;
+    border: none;
+    padding: 14px 16px;
+    background: #fca120;
+}

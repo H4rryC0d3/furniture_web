@@ -1,0 +1,57 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+  color: black;
+}
+
+.nav_logo h2 {
+  font-size: 1.5rem;
+}
+
+.link ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.link ul li {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2b1e0d;
+}
+
+.link ul li:hover {
+  color: gold;
+  cursor: pointer;
+}
+
+
+.link ul li a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color from li */
+}
+
+.link ul li a:hover {
+  color: gold;
+}
+
+.nav_icon {
+  display: flex;
+  gap: 15px;
+}
+
+.nav_icon .icon {
+  font-size: 26px;
+}
+
+.navbar.active {
+  padding: 0.5rem;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: #fca120;
+  box-shadow: -1px 11px 24px -11px rgba(0, 0, 0, 0.75);
+  transition: 0.5s;
+}

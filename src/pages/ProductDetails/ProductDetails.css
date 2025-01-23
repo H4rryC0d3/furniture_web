@@ -1,0 +1,120 @@
+.product_details {
+    margin-top: 40px;
+    padding-inline: 50px;
+}
+
+.product_details .details_top {
+    display: flex;
+    gap: 30px;
+}
+
+.product_details .details_left img {
+    width: 600px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.product_details .details_right {
+    flex: 1;
+}
+
+.product_details .details_right .name {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.product_details .details_right .price {
+    font-size: 28px;
+    color: #fca120;
+}
+
+.product_details .details_right hr {
+    width: 600px;
+    height: 1px;
+    background-color: #666;
+    margin-bottom: 15px;
+}
+
+.product_details .details_right .shipping,
+.product_details .details_right .delivery {
+    font-size: 16px;
+    margin-top: 15px;
+    color: #666;
+}
+
+.product_details .details_right .shipping .truck,
+.product_details .details_right .delivery .truck {
+    font-size: 34px;
+    margin-right: 10px;
+    color: #000;
+    margin-bottom: -2px;
+}
+
+.product_details .details_right .shipping .span,
+.product_details .details_right .delivery .span {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.product_details .star-icons {
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.product_details .star-icons .star_icon {
+    color: goldenrod;
+    font-size: 20px;
+}
+
+.product_details .details_right .btn {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.product_details .details_right .btn button {
+    padding: 0.9rem 5rem;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product_details .details_right .btn button:nth-child(1) {
+    background-color: transparent;
+    border: 1px solid #000;
+}
+
+.product_details .details_right .btn button:nth-child(1):hover {
+    background-color: #fca120;
+}
+
+.product_details .details_right .btn button:nth-child(2) {
+    background-color: #000;
+    color: #fff;
+}
+
+.product_details .product_description {
+    margin-top: 60px;
+}
+
+.product_details .product_description h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.product_details .product_description hr {
+    width: 100%;
+    height: 1px;
+    background-color: #666;
+    margin-bottom: 15px;
+}
+
+.product_details .product_description p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+}
